@@ -2,13 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++ アクティブなファイルのビルド",
+            "label": "ビルド",
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "-Wall",
-                "${file}",
+                "*.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
